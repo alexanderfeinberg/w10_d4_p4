@@ -43,36 +43,19 @@ rows shown above.
 For the following steps, you should execute the SQL command in the SQLite3 CLI,
 but you can create and use a `.sql` file to to formulate the command.
 
-## Step 1: `SELECT` with a comparison operator
+## Query 1: `SELECT` with a comparison operator
 
 Run the SQL command that returns the albums that have sold at least `100,000`
 copies.
 
-## Step 2: `SELECT` matching a range of values
+## Query 2: `SELECT` matching a range of values
 
 Run the SQL command that returns the albums released between `2018` and `2020`.
 
-## Step 3: `SELECT` for attributes matching a list of values
+## Query 3: `SELECT` for attributes matching a list of values
 
 Run the SQL command that returns the albums with `band_id`s of either `1`, `3`, 
 or `4`.
-
-## Step 4 INTERMEDIATE: `SELECT` for attributes matching a pattern
-
-Run the SQL command that returns the albums with titles that start with `'The'`.
-
-> Don't worry if you don't complete these last few steps. If you don't finish,
-> use these as extra practice over the weekend.
-
-## Step 5 INTERMEDIATE: `SELECT` ordered data
-
-Run the SQL command that returns the albums that have the two highest sales
-numbers.
-
-## Step 6 ADVANCED: `SELECT` in the middle of ordered data 
-
-Run the SQL command that returns the *next* two highest sales numbers (only
-the third and fourth highest sales).
 
 ## Congratulations!
 
