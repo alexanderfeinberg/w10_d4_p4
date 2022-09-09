@@ -20,4 +20,15 @@ VALUES ('The Falling Box', 1, 2015, 25000),
   ('The King River', 5, 2017, 85000),
   ('Under Water', 5, 2020, 106000),
   ('Another Fork', 5, 2021, 140000);
-  
+
+
+  SELECT * FROM albums where num_sold>100000;
+  SELECT * FROM albums WHERE year >= 2018 AND year <=2020;
+  SELECT * FROM albums where band_id IN (1,3,4);
+
+
+  -- BONUS
+  SELECT * FROM albums WHERE title LIKE ('the%');
+
+SELECT *  FROM albums ORDER BY num_sold DESC LIMIT 2;
+SELECT *  FROM albums ORDER BY num_sold DESC LIMIT 2 OFFSET 2;
